@@ -26,9 +26,9 @@ $ THE GRID POINTS LOCATIONS
 $ DESCRIBE THE GEOMETRY
 $
 GRID    1               0.      0.      0.              3456
-GRID    2               0.      120.    0.              3456
-GRID    3               600.    120.    0.              3456
-GRID    4               600.    0.      0.              3456
+GRID    2               1.12    0.      0.              3456
+GRID    3               3.34    0.      0.              3456
+GRID    4               4.68    0.      0.              3456
 $
 $ MEMBERS ARE MODELED USING
 $ ROD ELEMENTS
@@ -49,7 +49,7 @@ MAT1    22      30.E6           .3
 $
 $ POINT LOAD
 $
-FORCE   10      4               1000.   0.      -1.     0.
+FORCE   10      4               1000.   1.      -1.     0.
 $
 SPC1    11      123456  1       2
 $
