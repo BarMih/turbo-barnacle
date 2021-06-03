@@ -1,4 +1,3 @@
-
 # Перевод в СИ
 
 inches = 'inches'
@@ -100,14 +99,16 @@ arr_mod_upr()
 print(mod_upr)
 
 # Массив жесткостей
-
-gestkosti = []
 EF = 0
+gestkosti = []
+for i in range(el_num):
+    gestkosti.append([])
 
 def arr_gestkosti():
     for i in range(el_num):
-        EF = mod_upr[0] * sechenie[0]
-        gestkosti.append(EF)
+        for j in range(el_num):
+            EF = mod_upr[0] * sechenie[0]
+            gestkosti[i] = EF
     return gestkosti
 
 arr_gestkosti()
